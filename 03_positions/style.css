@@ -1,0 +1,16 @@
+div {
+    border-style: solid;
+    height: 100px;
+}
+
+.div1 {
+    background-color: aquamarine;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.div2 {
+    position: fixed;
+    top: 250px;
+}
