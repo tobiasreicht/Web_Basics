@@ -1,0 +1,18 @@
+ /* element selector */
+ div {
+    background-color: aqua;
+   } 
+
+   /*id selektor */
+   #header {
+       font-size: 2rem;
+   }
+
+   /*class selektor */
+   .subtitle {
+       color:blueviolet;
+   }
+
+   #text p {
+    background-color: blanchedalmond;
+   }
