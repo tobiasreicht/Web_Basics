@@ -6,42 +6,25 @@
     background-color: yellow;
     height: 150px;
     display: flex;
+    margin-top: 500px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.box1 {
-    display: flex;
+.box {
+    background-color: green;
     width: 30px;
     height: 30px;
-    background: green;
-    position: absolute;
-    top: 60px;
-    right: 30px;
+    margin: 40px;
+
 }
 
-.box2 {
-    width: 30px;
-    height: 30px;
-    background: green;
-    position: absolute;
-    top: 60px;
-    right: 80px;
-}
-
-.box3 {
-    width: 30px;
-    height: 30px;
-    background: green;
-    position: absolute;
-    top: 60px;
-    right: 130px;
-}
 
 #content {
     background-color: aqua;
     width: 400px;
     height: 300px;
-    margin-top: 20px;
+    margin-top: -450px;
     margin-left: 20px;
     position: absolute;
     
@@ -65,7 +48,9 @@
     background-color: blueviolet;
     width: 50px;
     height: 50px;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 0;
     right: 0;
+    
 }
+
