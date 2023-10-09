@@ -1,0 +1,43 @@
+.item {
+    background-color: blue;
+    width: 200px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.item2 {
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.item3 {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.item4 {
+    border: solid;
+    height: 100px;
+    margin-top: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.box1, .box2, .box3 {
+    background-color: green;
+    width: 40px;
+    height: 20px;
+}
