@@ -1,0 +1,42 @@
+.site {
+    background-color: gray;
+    top: 100px;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container1 {
+    background-color: gray;
+    border: solid;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+
+}
+
+.container2 {
+    background-color: gray;
+    border: solid;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0px;
+
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
